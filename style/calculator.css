@@ -1,0 +1,164 @@
+:root {
+  --main-bg-color: hsl(199, 100%, 50%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* navbar */
+header {
+  background-color: var(--main-bg-color);
+  /* padding: 12px 30px; */
+}
+.navbar {
+  display: flex;
+  /* display:inline-block; */
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo img {
+  width: 80%;
+}
+.navbar__items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar__item {
+  margin-right: 2em;
+  text-transform: uppercase;
+}
+.navbar__item a {
+  color: #000;
+}
+
+.navbar__logo img {
+  width: 30%;
+}
+
+.heading {
+  padding: 10px;
+  font-size: 2em;
+  /* text-align: center; */
+}
+
+table {
+  background-color: #bab396;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border-spacing: 10px;
+}
+.result {
+  height: 120px;
+  border-radius: 0%;
+  border: none;
+  font-size: 2em;
+}
+.global {
+  border: none;
+}
+.global:focus,
+.global:hover {
+  background-color: chocolate;
+}
+.operator {
+  background-color: #e0a721;
+  border: none;
+  color: aliceblue;
+}
+.heading {
+  /* text-align: center; */
+}
+.decimal {
+  font-size: 1em;
+}
+/* main-wrapper */
+.main-wrapper {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+}
+
+/* FORMS */
+.container {
+  /* margin-top: 80px; */
+}
+
+.forms {
+  width: 500px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.login-form {
+  padding: 20px 0;
+}
+
+label {
+  padding-left: 20px;
+}
+
+input,
+select {
+  border-radius: 50px;
+  padding: 12px 30px;
+  margin: 15px 3px;
+  width: 100%;
+}
+textarea {
+  margin: 15px 3px;
+  width: 100%;
+  padding: 12px 30px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #d4a259;
+}
+
+.login-form a {
+  color: #d4a259;
+}
+.link {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1359px) {
+  /* navbar */
+  header {
+    background-color: var(--main-bg-color);
+    padding: 12px 30px;
+  }
+  .navbar {
+    /* display: flex; */
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: top;
+  }
+  .navbar__logo img {
+    width: 10%;
+  }
+  
+}

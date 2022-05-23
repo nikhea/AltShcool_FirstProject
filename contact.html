@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/contact.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar container">
+        <div class="navbar__logo">
+          <a href="/index.html">
+            <img class="img-dark" src="/img/altshcool-removebg-preview.png" />
+            <img
+              class="img-white"
+              src="/img/altshcool-removebg-preview (1).png"
+            />
+          </a>
+        </div>
+        <ul class="navbar__items">
+          <li class="navbar__item"><a href="/contact.html">contact</a></li>
+          <li class="navbar__item"><a href="/register.html">register</a></li>
+          <li class="navbar__item"><a href="/login.html">login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <div class="header container">
+        <!-- <div class="container_header"> -->
+        <h1>Get in touch with us.</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+          doloremque doloribus ad reiciendis dolore minus, voluptatibus fuga
+          architecto inventore maiores unde.
+        </p>
+        <!-- </div> -->
+      </div>
+    </div>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="name">name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            id="name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            id="email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="">priority</label>
+          <select name="priority" id="priority" required>
+            <option value="" disabled selected>Select your option</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">message</label>
+          <textarea
+            name="message"
+            id="message"
+            required
+            cols="30"
+            rows="10"
+            placeholder="type your message"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
